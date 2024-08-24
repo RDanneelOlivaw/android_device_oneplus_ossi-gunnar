@@ -3,7 +3,9 @@
 #
 # SPDX-License-Identifier: Apache-2.0
 #
-# Commenting to record successful kernel build
+
+# Add common definitions for Qualcomm
+$(call inherit-product, hardware/qcom-caf/common/common.mk)
 
 # Enable project quotas and casefolding for emulated storage without sdcardfs
 $(call inherit-product, $(SRC_TARGET_DIR)/product/emulated_storage.mk)
