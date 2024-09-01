@@ -1,1 +1,1 @@
-require board=holi|OnePlusN30
+require board=holi|ossi|OP5958L1|OP5958L1|CPH2513|CPH2515
