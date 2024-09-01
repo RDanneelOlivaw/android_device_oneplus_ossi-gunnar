@@ -1829,13 +1829,10 @@ vendor/etc/init/init.time_daemon.rc
 vendor/lib64/libtime_genoff.so
 
 # Touchscreen firmware
-odm/firmware/tp/21095/FW_FT3518_SAMSUNG_FAE.img
-odm/firmware/tp/21095/FW_FT3518_SAMSUNG.img
-odm/firmware/tp/21095/FW_GT9886_SAMSUNG_FAE.img
-odm/firmware/tp/21095/FW_GT9886_SAMSUNG.img
-odm/firmware/tp/21095/LIMIT_FT3518_SAMSUNG_AGING.img
-odm/firmware/tp/21095/LIMIT_FT3518_SAMSUNG.img
-odm/firmware/tp/21095/LIMIT_GT9886_SAMSUNG.img
+odm/firmware/tp/22821/FW_NF_NT36672C_TIANMA_FAE.img
+odm/firmware/tp/22821/FW_NF_NT36672C_TIANMA.img
+odm/firmware/tp/22821/FW_NF_NT36672C_TIANMA_TEST.bin
+odm/firmware/tp/22821/LIMIT_NF_NT36672C_TIANMA.img
 
 # Trusted Execution Environment connector
 vendor/bin/hw/vendor.qti.hardware.qteeconnector@1.0-service
