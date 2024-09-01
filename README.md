@@ -5,7 +5,7 @@ Copyright (C) 2023 The LineageOS Project
 Device configuration for the OnePlus Nord N30 (ossi)
 ==================================================
 
-The OnePlus Nord (codenamed _"ossi"_) is a mid-range smartphone from OnePlus Technology Co., Ltd. launched in 2023.
+The OnePlus Nord N30 (codenamed _"ossi"_) is a mid-range smartphone from OnePlus Technology Co., Ltd. launched in 2023.
 ## Device specifications
 
 Basic   | Spec Sheet
@@ -36,7 +36,7 @@ Shipped Android Version | 13.1
 
 ## Device picture
 
-![OnePlus Nord](https://www.droid-life.com/wp-content/uploads/2023/06/Nord-N30-5G-980x681.jpg "OnePlus Nord N30")
+![OnePlus Nord N30](https://www.droid-life.com/wp-content/uploads/2023/06/Nord-N30-5G-980x681.jpg "OnePlus Nord N30")
 
-[OnePlus Nord Official Website ](https://www.oneplus.com/us/oneplus-n30-5g) & 
+[OnePlus Nord N30 Official Website ](https://www.oneplus.com/us/oneplus-n30-5g) & 
 [Chipset Source](https://www.qualcomm.com/products/snapdragon-695-5g-mobile-platform)
