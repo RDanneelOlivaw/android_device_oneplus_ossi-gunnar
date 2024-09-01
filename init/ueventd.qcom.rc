@@ -31,9 +31,9 @@
 # ifndef OPLUS_FEATURE_WIFI_BDF
 # Laixin@CONNECTIVITY.WIFI.BASE.HARDWARE.1065227 , 2019/10/17
 # Modify for: multi projects using different bdf, adding persist into firmware_directories
-#firmware_directories /vendor/firmware_mnt/image/
+firmware_directories /vendor/firmware_mnt/image/
 # else /* OPLUS_FEATURE_WIFI_BDF */
-firmware_directories /odm/etc/wifi/ /mnt/vendor/persist/ /vendor/firmware_mnt/image/
+#firmware_directories /odm/etc/wifi/ /mnt/vendor/persist/ /vendor/firmware_mnt/image/
 # endif /* OPLUS_FEATURE_WIFI_BDF */
 
 #ifdef OPLUS_FEATURE_MIDAS_GKI

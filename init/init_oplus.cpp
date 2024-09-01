@@ -12,7 +12,7 @@
 using android::base::GetProperty;
 
 constexpr const char* BUILD_DESCRIPTION = "CPH2513-user 14 UKQ1.230924.001 1710758598586 release-keys";
-constexpr const char* BUILD_FINGERPRINT = "OnePlus/CPH2513/OP5958L1:14/UKQ1.230924.001/171710758598586:user/release-keys";
+constexpr const char* BUILD_FINGERPRINT = "OnePlus/CPH2513/OP5958L1:14/UKQ1.230924.001/T.R4T1.18a850a_1c802_26b84:user/release-keys";
 
 constexpr const char* RO_PROP_SOURCES[] = {
     nullptr,
@@ -57,7 +57,7 @@ void OverrideCarrierProperties() {
     };
 
     for (const auto& source : RO_PROP_SOURCES) {
-        ro_prop_override(source, "model", "CPH2513", true);
+        ro_prop_override(source, "model", "CPH2515", true);
         ro_prop_override(source, "fingerprint", BUILD_FINGERPRINT, false);
     }
     ro_prop_override(nullptr, "product", "CPH2513", false);
@@ -73,7 +73,7 @@ void vendor_load_properties() {
     //auto device = GetProperty("ro.product.product.device", "");
     auto prjname = std::stoi(GetProperty("ro.boot.prjname", "0"));
 
-    // T-Mobile (20826)
-    if (prjname == 20826)
+    // T-Mobile (22872)
+    if (prjname == 22872)
         OverrideCarrierProperties();
 }
