@@ -63,32 +63,6 @@
       ]
     },
     {
-      "Name": "Frozen",
-      "Actions": [
-        {
-          "Name": "JoinCgroup",
-          "Params":
-          {
-            "Controller": "freezer",
-            "Path": "frozen"
-          }
-        }
-      ]
-    },
-    {
-      "Name": "Unfrozen",
-      "Actions": [
-        {
-          "Name": "JoinCgroup",
-          "Params":
-          {
-            "Controller": "freezer",
-            "Path": ""
-          }
-        }
-      ]
-    },
-    {
       "Name": "NormalPerformance",
       "Actions": [
         {
@@ -116,19 +90,6 @@
     },
     {
       "Name": "MaxPerformance",
-      "Actions": [
-        {
-          "Name": "JoinCgroup",
-          "Params":
-          {
-            "Controller": "cpu",
-            "Path": "top-app"
-          }
-        }
-      ]
-    },
-    {
-      "Name": "VipMaxPerformance",
       "Actions": [
         {
           "Name": "JoinCgroup",
