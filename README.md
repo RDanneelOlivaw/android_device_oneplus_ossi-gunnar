@@ -26,7 +26,7 @@ Storage | 128GB UFS2.2
 Display | 2400x1080 pixels 392ppi
 Display Size | 17.07 centimeters (6.72 inches)
 NFC | Supported
-Bluetooth | 5.1
+Bluetooth | 5.2
 Battery | 5000 mAh (non-removable)
 Rear Camera | 108+2+2 MP (Wide, Depth & Macro) 
 Rear Camera Sensor | Samsung S5KHM6-SX03
