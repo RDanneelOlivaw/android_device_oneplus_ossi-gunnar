@@ -57,7 +57,7 @@ void OverrideCarrierProperties() {
     };
 
     for (const auto& source : RO_PROP_SOURCES) {
-        ro_prop_override(source, "model", "CPH2515", true);
+        ro_prop_override(source, "model", "CPH2513", true);
         ro_prop_override(source, "fingerprint", BUILD_FINGERPRINT, false);
     }
     ro_prop_override(nullptr, "product", "CPH2513", false);
